@@ -1,3 +1,28 @@
+html {
+  background: url(https://i.imgur.com/aFuIoBl.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav a {
+  padding: 10px;
+  align-items: center;
+  height: 5em;
+  color: whitesmoke;
+}
+
+header {
+  background-color: #022605;
+  display: flex;
+  height: 8vh;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: larger;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
