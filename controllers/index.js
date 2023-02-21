@@ -33,18 +33,18 @@ const getParkById = async (req, res) => {
   }
 }
 
-const deletePark = async (req, res) => {
-  try {
-    const { id } = req.params
-    const deleted = await Park.findByIdAndDelete(id)
-    if (deleted) {
-      return res.status(200).send('Park deleted')
-    }
-    throw new Error('Park not found')
-  } catch (error) {
-    return res.status(500).send(error.message)
-  }
-}
+// const deletePark = async (req, res) => {
+//   try {
+//     const { id } = req.params
+//     const deleted = await Park.findByIdAndDelete(id)
+//     if (deleted) {
+//       return res.status(200).send('Park deleted')
+//     }
+//     throw new Error('Park not found')
+//   } catch (error) {
+//     return res.status(500).send(error.message)
+//   }
+// }
 const createPost = async (req, res) => {
   try {
     const post = await new Post(req.body)
@@ -83,7 +83,6 @@ module.exports = {
   createPark,
   getAllParks,
   getParkById,
-  deletePark,
   getPostsForPark,
   createPost,
   deletePost
