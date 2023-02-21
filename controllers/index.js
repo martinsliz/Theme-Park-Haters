@@ -13,7 +13,7 @@ const createPark = async (req, res) => {
 }
 const getAllParks = async (req, res) => {
   try {
-    const parks = await Plant.find()
+    const parks = await Park.find()
     return res.status(200).json({ parks })
   } catch (error) {
     return res.status(500).send(error.message)
@@ -23,7 +23,7 @@ const getAllParks = async (req, res) => {
 const getParkById = async (req, res) => {
   try {
     const { id } = req.params
-    const park = await Plant.findById(id)
+    const park = await Park.findById(id)
     if (park) {
       return res.status(200).json({ park })
     }
