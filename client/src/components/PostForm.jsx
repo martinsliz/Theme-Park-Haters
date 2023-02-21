@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { BASE_URL } from '../globals'
 import { useNavigate } from 'react-router-dom'
 
-const PostForm = () => {
+const PostForm = (props) => {
   const initialState = {
     name: '',
     content: '',
@@ -19,7 +19,7 @@ const PostForm = () => {
     event.preventDefault(event)
     await axios.post(`${BASE_URL}`, formState)
     setFormState(initialState)
-    navigate()
+    navigate('/parks/:id')
   }
 
   return (
@@ -45,6 +45,7 @@ const PostForm = () => {
         onChange={handleChange}
         value={formState.rating}
       />
+      <button type="submit">Submit</button>
     </form>
   )
 }
