@@ -1,9 +1,10 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
+const parks = require('./parks')
 
 const Post = new Schema(
   {
-    park: { type: String, required: true },
+    park: { type: Schema.Types.ObjectId, ref: 'Park', required: true },
     content: { type: String, required: true },
     rating: { type: Number, required: true },
     name: { type: Number, required: true }
