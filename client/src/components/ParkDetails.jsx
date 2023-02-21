@@ -4,16 +4,16 @@ import { BASE_URL } from '../globals'
 import axios from 'axios'
 
 const ParkDetails = (props) => {
-  // const [parkDetails, setParkDetails] = useState([])
+  const [parkDetails, setParkDetails] = useState([])
 
-  // let { id } = useParams()
+  let { id } = useParams()
 
-  // const getParkDetails = async () => {
-  //   const response = await axios.get(`${BASE_URL}/parks/:id`)
-  //   setDetails(response.data)
-  //   console.log(response)
-  // }
-  // getParkDetails()
+  const getParkDetails = async () => {
+    const response = await axios.get(`${BASE_URL}/parks/:id`)
+    setDetails(response.data)
+    console.log(response)
+  }
+  getParkDetails()
 
   return <div>ParkDetails</div>
 }

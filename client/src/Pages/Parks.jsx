@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import axios from "axios"
 import ParkCard from "../Components/ParkCard"
 import { BASE_URL } from "../globals"
+import "../Styles/Parks.css"
 
 const Parks = () => {
 
