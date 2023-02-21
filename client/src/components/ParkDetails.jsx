@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { BASE_URL } from '../globals'
 import axios from 'axios'
+import Post from "./Post"
 
 const ParkDetails = () => {
   const [parkDetails, setParkDetails] = useState([])
@@ -28,7 +29,9 @@ const ParkDetails = () => {
           <h3>Open: {parkDetails.open} </h3>
         </div>
       </section>
-      <section></section>
+      <section>
+        <Post />
+      </section>
     </div>
   )
 }
