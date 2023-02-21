@@ -32,8 +32,23 @@ const getParkById = async (req, res) => {
     return res.status(500).send(error.message)
   }
 }
+
+const deletePark = async (req, res) => {
+  try {
+    const { id } = req.params
+    const deleted = await Park.findByIdAndDelete(id)
+    if (deleted) {
+      return res.status(200).send('Park deleted')
+    }
+    throw new Error('Park not found')
+  } catch (error) {
+    return res.status(500).send(error.message)
+  }
+}
+
 module.exports = {
   createPark,
   getAllParks,
-  getParkById
+  getParkById,
+  deletePark
 }
