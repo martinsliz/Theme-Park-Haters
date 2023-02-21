@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
-// import { useState, useEffect } from 'react'
-// import axios from 'axios'
+import { useState, useEffect } from 'react'
+import Home from './pages/Home'
+import axios from 'axios'
 import './App.css'
 import Home from './Pages/Home'
 import ParkDetails from "./Components/ParkDetails"
@@ -9,7 +10,8 @@ import Nav from "./Components/Nav"
 import PostForm from "./Components/PostForm"
 
 function App() {
-  return <div className="App">
+  return ( 
+  <div className="App">
     <Nav />
     <Routes>
       <Route path="/" element={<Home />}/>
@@ -17,8 +19,9 @@ function App() {
       <Route path="/park/:id" element={<ParkDetails />}/>
       <Route path="/park/:id/post" element={<PostForm />}/>
     </Routes>
-
   </div>
+  )
+
 }
 
 export default App
