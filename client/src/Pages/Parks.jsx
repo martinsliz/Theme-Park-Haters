@@ -9,8 +9,7 @@ const Parks = () => {
 
     const getAllParks = async () => {
         const res = await axios.get(`${BASE_URL}/parks`)
-        console.log(res)
-        setParks(res)
+        setParks(res.data.parks)
     }
 
     useEffect(() => {
@@ -20,11 +19,12 @@ const Parks = () => {
   return (
     <div className="parks-container">
         {parks && (
-            parks.map(park => {
-                <ParkCard {...park}/>
-            })
+            parks.map(park => (
+                <ParkCard {...park} key={park._id}/>
+            ))
         )}
     </div>
   )
+
 }
 export default Parks
