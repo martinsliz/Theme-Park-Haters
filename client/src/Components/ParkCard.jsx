@@ -9,7 +9,7 @@ const ParkCard = (props) => {
         <h4>{props.location}</h4>
         <h4>{props.ratings}</h4>
         <h4>{props.isOpen}</h4>
-        <Link to={`/park/${props._id}`}>
+        <Link to={`/parks/${props._id}`}>
             <button 
             className="card--button"
             type="button">More info</button>
