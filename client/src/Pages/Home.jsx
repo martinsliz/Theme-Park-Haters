@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <div>
-        Welcome to the home page
+        Welcome to the most hated theme parks!
     </div>
   )
 }
