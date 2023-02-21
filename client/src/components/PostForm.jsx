@@ -11,6 +11,8 @@ const PostForm = (props) => {
   }
   const [formState, setFormState] = useState(initialState)
 
+  let navigate = useNavigate()
+
   const handleChange = (event) => {
     setFormState({ ...formState, [event.target.id]: event.target.value })
   }
