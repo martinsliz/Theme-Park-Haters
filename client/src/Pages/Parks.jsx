@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 import ParkCard from "../Components/ParkCard"
+import { BASE_URL } from "../globals"
 
 const Parks = () => {
 
     const [parks, setParks] = useState([])
 
     const getAllParks = async () => {
-        const res = axios.get(`/api/parks`)
+        const res = await axios.get(`${BASE_URL}/parks`)
         console.log(res)
         setParks(res)
     }
