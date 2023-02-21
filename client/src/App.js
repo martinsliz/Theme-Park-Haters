@@ -1,7 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import { BASE_URL } from './globals'
-import Home from './pages/Home'
 import axios from 'axios'
 import './App.css'
 import Home from './Pages/Home'
@@ -11,6 +9,7 @@ import Nav from './Components/Nav'
 import PostForm from './Components/PostForm'
 
 function App() {
+
   return (
     <div className="App">
       <Nav />
@@ -21,6 +20,7 @@ function App() {
         <Route path="/park/:id/post" element={<PostForm />} />
       </Routes>
     </div>
+
   )
 }
 
