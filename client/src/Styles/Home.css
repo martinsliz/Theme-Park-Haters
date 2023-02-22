@@ -10,6 +10,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
 }
 
 .header-text {
@@ -18,5 +20,6 @@
   top: 20%;
   color: white;
   text-shadow: 2px 1px 1px black;
+  font-size: 3rem;
 }
 
