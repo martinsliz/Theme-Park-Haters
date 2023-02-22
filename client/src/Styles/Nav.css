@@ -1,0 +1,8 @@
+nav {
+    font-size: 2rem;
+}
+
+.nav-link {
+    margin: 12px;
+    text-decoration: none;
+}
