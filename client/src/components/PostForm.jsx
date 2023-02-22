@@ -49,7 +49,7 @@ const PostForm = () => {
         <option>Please Select</option>
         <option value="1 - Meh">1 - Meh</option>
         <option value="2 - I've seen worse">2 - I've seen worse</option>
-        <option value="3 - This bad.">3 - This is bad.</option>
+        <option value="3 - This is bad.">3 - This is bad.</option>
         <option value="4 - Who approved this?">4 - Who approved this?</option>
         <option value="5 - An abomination">5 - An abomination!</option>
       </select>
