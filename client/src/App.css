@@ -35,3 +35,12 @@ header {
   font-size: larger;
   color: white;
 }
+
+button {
+  margin: 16px;
+  font-size: 1.2rem;
+  background-color: #AD0000;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}

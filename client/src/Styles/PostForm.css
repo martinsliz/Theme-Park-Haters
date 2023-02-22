@@ -13,11 +13,3 @@ form {
   margin: 2em auto;
   border-radius: 15px;
 }
-
-button {
-  margin-top: 30px;
-  font-size: x-large;
-  background-color: red;
-  color: white;
-  border: 1px solid red;
-}
