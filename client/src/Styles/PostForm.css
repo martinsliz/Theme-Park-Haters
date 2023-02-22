@@ -12,15 +12,10 @@ form {
   min-height: 10em;
   margin: 2em auto;
   border-radius: 15px;
+
 }
 
-button {
-  margin-top: 30px;
-  font-size: x-large;
-  background-color: #ad0000;
-  color: white;
-  border: 1px solid #ad0000;
-}
+
 
 @media screen and (max-width: 850px) {
   form {
@@ -28,3 +23,4 @@ button {
     height: 300px;
   }
 }
+

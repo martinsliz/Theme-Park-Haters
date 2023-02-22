@@ -19,16 +19,8 @@
   border-bottom: 1px solid black;
 }
 
-.card--button {
-  margin-bottom: 25px;
-  font-size: 1.2rem;
-  background-color: #ad0000;
-  color: white;
-  border: 1px solid #ad0000;
-  border-radius: 5px;
-}
-
 .name,
 .location {
   margin: 0;
 }
+
