@@ -1,5 +1,4 @@
 .post-card {
-  /* margin-top: 5em; */
   background-color: rgb(205, 199, 192, 0.6);
   color: black;
   font-size: 1.8rem;
@@ -13,6 +12,7 @@
   min-height: 10em;
   margin: 2em auto;
   border-radius: 15px;
+  backdrop-filter: blur(3px);
 }
 
 .haterName {

@@ -9,6 +9,7 @@
   width: 32em;
   margin: 2em auto;
   border-radius: 15px;
+  backdrop-filter: blur(3px);
 }
 
 .detail--image {
