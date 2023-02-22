@@ -1,7 +1,7 @@
 # Theme-Park-Haters
 
 ### By 
-- Frederick Caione [Github](https://github.com/fcaione)|| [Linkedin](https://www.linkedin.com/in/frederickcaione/)
+- Frederick Caione  [Github](https://github.com/fcaione)||  [Linkedin](https://www.linkedin.com/in/frederickcaione/)
 - Elizabeth (Liz) Martins [Github](https://github.com/martinsliz)|| [Linkedin](hhttps://www.linkedin.com/in/elizmartins/)
 - Sarah Maher [Github](https://github.com/mahers12)|| [Linkedin](https://www.linkedin.com/in/sarah-maher-8a6865255/)
 
