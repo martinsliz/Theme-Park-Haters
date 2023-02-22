@@ -62,7 +62,7 @@ const createPost = async (req, res) => {
 const deletePost = async (req, res) => {
   try {
     const { id } = req.params
-    const deleted = await Park.findByIdAndDelete(id)
+    const deleted = await Post.findByIdAndDelete(id)
     if (deleted) {
       return res.status(200).send('Post deleted')
     }
