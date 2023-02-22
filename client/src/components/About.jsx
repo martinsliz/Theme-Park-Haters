@@ -7,7 +7,9 @@ const About = () => {
       the same mistakes we did with our helpful information on some of the worst
       parks out there. You're welcome!
       <div className="creatives">
-        <h4>Creative team:</h4>
+        <h4>
+          <u>Creative team:</u>
+        </h4>
         <h4>
           Freddy Caione
           <a
