@@ -1,0 +1,20 @@
+.about {
+  margin: auto;
+  margin-top: 80px;
+  background-color: rgb(205, 199, 192, 0.6);
+  opacity: 0.9;
+  color: black;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30em;
+  min-height: 10em;
+  margin: 2em auto;
+  border-radius: 15px;
+}
+
+.creatives {
+  line-height: 4px;
+}

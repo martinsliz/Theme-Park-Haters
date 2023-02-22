@@ -1,0 +1,29 @@
+.imageContainer .info {
+  margin-top: 10em;
+  background-color: rgb(205, 199, 192, 0.6);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* line-height: 2px; */
+  width: 35em;
+  min-height: 10em;
+  margin: 2em auto;
+  border-radius: 15px;
+}
+
+.detail--image {
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 60%;
+  margin-top: 25px;
+}
+
+.card--button {
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}

@@ -1,0 +1,23 @@
+form {
+  margin-top: 50px;
+  background-color: rgb(205, 199, 192, 0.6);
+  opacity: 0.9;
+  color: black;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 10em;
+  min-height: 10em;
+  margin: 2em auto;
+  border-radius: 15px;
+}
+
+button {
+  margin-top: 30px;
+  font-size: x-large;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}

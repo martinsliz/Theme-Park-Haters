@@ -2,12 +2,16 @@ import axios from 'axios'
 import { useState } from 'react'
 import { BASE_URL } from '../globals'
 import { useNavigate } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
+import '../Styles/PostForm.css'
 
-const PostForm = (props) => {
+const PostForm = () => {
+  let { id } = useParams()
   const initialState = {
     name: '',
     content: '',
-    rating: ''
+    rating: '',
+    park: id
   }
   const [formState, setFormState] = useState(initialState)
 
@@ -19,9 +23,9 @@ const PostForm = (props) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault(event)
-    await axios.post(`${BASE_URL}`, formState)
+    await axios.post(`${BASE_URL}/post`, formState)
     setFormState(initialState)
-    navigate('/parks/:id')
+    navigate(`/parks/${id}`)
   }
 
   return (
@@ -33,7 +37,7 @@ const PostForm = (props) => {
         onChange={handleChange}
         value={formState.name}
       />
-      <label htmlFor="content">Content:</label>
+      <label htmlFor="content">Comments:</label>
       <input
         type="text"
         id="content"
@@ -41,12 +45,14 @@ const PostForm = (props) => {
         value={formState.content}
       />
       <label htmlFor="rating">Rating:</label>
-      <input
-        type="text"
-        id="rating"
-        onChange={handleChange}
-        value={formState.rating}
-      />
+      <select id="rating" onChange={handleChange} value={formState.rating}>
+        <option>Please Select</option>
+        <option value="1 - Meh">1 - Meh</option>
+        <option value="2 - I've seen worse">2 - I've seen worse</option>
+        <option value="3 - This bad.">3 - This is bad.</option>
+        <option value="4 - Who approved this?">4 - Who approved this?</option>
+        <option value="5 - An abomination">5 - An abomination!</option>
+      </select>
       <button type="submit">Submit</button>
     </form>
   )

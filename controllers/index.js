@@ -1,6 +1,8 @@
 const Park = require('../models/parks')
 const Post = require('../models/posts')
 
+const Post = require('../models/posts')
+
 const createPark = async (req, res) => {
   try {
     const park = await new Park(req.body)
@@ -61,7 +63,7 @@ const createPost = async (req, res) => {
 const deletePost = async (req, res) => {
   try {
     const { id } = req.params
-    const deleted = await Park.findByIdAndDelete(id)
+    const deleted = await Post.findByIdAndDelete(id)
     if (deleted) {
       return res.status(200).send('Post deleted')
     }
