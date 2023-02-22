@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { BASE_URL } from "../globals"
 import { useParams, Link } from "react-router-dom"
 import PostCard from "./PostCard"
+import axios from "axios"
 
 const Post = () => {
 	const [posts, setPosts] = useState([])
@@ -10,8 +11,8 @@ const Post = () => {
   let { id } = useParams()
 
 	const getPost = async () => {
-		// const res = await axios.get(`${BASE_URL}`)
-		console.log("hey")
+		const res = await axios.get(`${BASE_URL}/parks/${id}/post`)
+		setPosts(res.data)
 	}
 
 	useEffect(() => {
