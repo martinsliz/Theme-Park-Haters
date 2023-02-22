@@ -6,7 +6,7 @@ const Post = new Schema(
   {
     park: { type: Schema.Types.ObjectId, ref: 'Park', required: true },
     content: { type: String, required: true },
-    rating: { type: Number, required: true },
+    rating: { type: String, required: true },
     name: { type: String, required: true }
   },
   { timestamps: true }
