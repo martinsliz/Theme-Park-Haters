@@ -1,14 +1,12 @@
 .imageContainer .info {
-  margin-top: 10em;
   background-color: rgb(205, 199, 192, 0.6);
+  font-size: 1.8rem;
   color: black;
+  text-shadow: 1px 1px 1px white;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  /* line-height: 2px; */
-  width: 35em;
-  min-height: 10em;
+  width: 32em;
   margin: 2em auto;
   border-radius: 15px;
 }
@@ -18,5 +16,11 @@
   border-radius: 15px;
   width: 60%;
   margin-top: 25px;
+  border-bottom: 1px solid black;
+}
+
+.name,
+.location {
+  margin: 0;
 }
 

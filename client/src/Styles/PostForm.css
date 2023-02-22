@@ -12,4 +12,15 @@ form {
   min-height: 10em;
   margin: 2em auto;
   border-radius: 15px;
+
 }
+
+
+
+@media screen and (max-width: 850px) {
+  form {
+    width: 60%;
+    height: 300px;
+  }
+}
+

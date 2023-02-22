@@ -36,6 +36,12 @@ header {
   color: white;
 }
 
+
+.post {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+
 button {
   margin: 16px;
   font-size: 1.2rem;
@@ -43,4 +49,5 @@ button {
   color: white;
   border: 1px solid white;
   border-radius: 5px;
+
 }
