@@ -8,6 +8,6 @@ router.post('/park', controllers.createPark)
 router.get('/parks', controllers.getAllParks)
 router.get('/parks/:id', controllers.getParkById)
 router.get('/parks/:id', controllers.deletePark)
-router.get('/parks/post', controllers.getPostsForPark)
+router.get('/parks/:id/post', controllers.getPostsForPark)
 
 module.exports = router
