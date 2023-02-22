@@ -6,6 +6,10 @@ html {
   background-size: cover;
 }
 
+body {
+  margin: 0;
+}
+
 nav a {
   padding: 10px;
   align-items: center;
