@@ -35,3 +35,9 @@ header {
   font-size: larger;
   color: white;
 }
+
+.post {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}

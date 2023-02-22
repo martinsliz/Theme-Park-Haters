@@ -17,7 +17,14 @@ form {
 button {
   margin-top: 30px;
   font-size: x-large;
-  background-color: red;
+  background-color: #ad0000;
   color: white;
-  border: 1px solid red;
+  border: 1px solid #ad0000;
+}
+
+@media screen and (max-width: 850px) {
+  form {
+    width: 60%;
+    height: 300px;
+  }
 }

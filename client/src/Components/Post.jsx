@@ -21,6 +21,11 @@ const Post = () => {
 
   return (
     <>
+      <div>
+        <h3 className="post">
+          <u>POSTS</u>
+        </h3>
+      </div>
       <div className="post-container">
         {posts &&
           posts.map((post) => (
