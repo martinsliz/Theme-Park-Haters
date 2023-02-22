@@ -23,9 +23,9 @@ This is a website for those who are sick and tired of wasting time and energy vi
 
 ## **_Final Project Photos:_**
 
-![Home_Page]()
+![Home_Page](https://i.imgur.com/nPIuBCv.jpg)
 
-![Posts_Page]()
+![Posts_Page](https://i.imgur.com/hEeOd53.png)
 
 ## **_Future Updates:_**
 
