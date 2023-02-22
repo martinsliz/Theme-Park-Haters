@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { BASE_URL } from '../globals'
+import '../Styles/ParkDetails.css'
 import axios from 'axios'
-import Post from "./Post"
+import Post from './Post'
 
 const ParkDetails = () => {
   const [parkDetails, setParkDetails] = useState([])

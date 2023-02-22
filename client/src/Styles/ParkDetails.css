@@ -1,4 +1,5 @@
-.park-card {
+.imageContainer .info {
+  margin: auto;
   border: 1px solid black;
   margin: 25px;
   width: 30%;
