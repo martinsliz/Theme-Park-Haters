@@ -2,13 +2,14 @@
   border: 1px solid black;
   margin: 20px;
   width: 30%;
-  height: 400px;
+  height: 375px;
   background-color: rgba(205, 199, 192, 0.7);
 }
 
 @media screen and (max-width:700px){
   .park-card{
     width: 60%;
+    height: 300px;
   }
 }
 .parkcard-img-container {
@@ -21,6 +22,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   border-bottom: 1px solid black;
 }
 
@@ -29,7 +31,8 @@
   font-size: 1.2rem;
   background-color: #AD0000;
   color: white;
-  border: 1px solid #AD0000;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 .card--details {
@@ -40,9 +43,12 @@
 .card--name {
   font-size: 1.8rem;
   margin: 0;
+  color: black;
+  text-shadow: 1px 1px 1px white;
 }
 
 .card--location {
   font-size: 1.2rem;
   margin: 0;
+  font-style: italic;
 }

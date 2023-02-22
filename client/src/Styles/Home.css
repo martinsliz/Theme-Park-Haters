@@ -10,6 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
+  border-bottom: 1px solid black;
   margin-bottom: 10px;
 }
 

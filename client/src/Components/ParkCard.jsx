@@ -13,7 +13,7 @@ const ParkCard = (props) => {
 			</div>
 			<div className="card--details">
 				<h2 className="card--name">{props.name}</h2>
-				<h3 className="card--location">{props.location}</h3>
+				<h3 className="card--location">in {props.location}</h3>
 				{/* <h4>{props.ratings}</h4> */}
 				{/* <h4>{props.isOpen}</h4> */}
 				<Link to={`/parks/${props._id}`}>
