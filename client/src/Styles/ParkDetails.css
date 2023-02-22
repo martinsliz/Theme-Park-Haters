@@ -5,17 +5,3 @@
   width: 30%;
   background-color: rgba(205, 199, 192, 0.5);
 }
-
-.card--image {
-  border-radius: 15px;
-  width: 90%;
-  margin-top: 25px;
-}
-
-.card--button {
-  margin-bottom: 25px;
-  font-size: 1.2rem;
-  background-color: red;
-  color: white;
-  border: 1px solid red;
-}

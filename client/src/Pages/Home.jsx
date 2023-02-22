@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <>
       <div className='header-photo-container' style={{backgroundImage: `url(${abandonedCoaster})`}}>
-        {/* <img className="header-photo" src={{style=}} alt="" /> */}
         <h1 className='header-text'>Welcome to the most hated theme parks</h1>
       </div>
       <Parks />
