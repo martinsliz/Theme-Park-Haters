@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { BASE_URL } from '../globals'
 import { useNavigate } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
+import '../Styles/PostForm.css'
 
 const PostForm = () => {
   let { id } = useParams()
@@ -45,12 +46,12 @@ const PostForm = () => {
       />
       <label htmlFor="rating">Rating:</label>
       <select id="rating" onChange={handleChange} value={formState.rating}>
-        <option disabled>Please Select</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
+        <option>Please Select</option>
+        <option value="1 - Meh">1 - Meh</option>
+        <option value="2 - I've seen worse">2 - I've seen worse</option>
+        <option value="3 - This bad.">3 - This is bad.</option>
+        <option value="4 - Who approved this?">4 - Who approved this?</option>
+        <option value="5 - An abomination">5 - An abomination!</option>
       </select>
       <button type="submit">Submit</button>
     </form>
