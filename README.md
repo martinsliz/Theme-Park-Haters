@@ -34,4 +34,4 @@ This is a website for those who are sick and tired of wasting time and energy vi
 
 <a href="https://www.therichest.com/poorest-list/the-10-worst-theme-parks-in-the-world/">The 10 Worst Theme Parks In The World</a> ||
 
-<a href="hhttps://fonts.google.com/specimen/Zeyada">Google Fonts: Zeyada </a> ||
+<a href="https://fonts.google.com/specimen/Zeyada">Google Fonts: Zeyada</a>
