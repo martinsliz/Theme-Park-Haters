@@ -11,4 +11,5 @@ router.get('/parks/:id/post', controllers.getPostsForPark)
 router.post('/post', controllers.createPost)
 router.delete('/posts/:id', controllers.deletePost)
 
+
 module.exports = router

@@ -1,4 +1,5 @@
 const Park = require('../models/parks')
+const Post = require('../models/posts')
 
 const Post = require('../models/posts')
 
