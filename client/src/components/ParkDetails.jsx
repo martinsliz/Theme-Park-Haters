@@ -26,6 +26,7 @@ const ParkDetails = () => {
           <h2 className="name">{parkDetails.name} </h2>
           <h4 className="location">{parkDetails.location} </h4>
           <h3>Description: {parkDetails.rating} </h3>
+          {/* <h3>Description: {parkDetails.rating} </h3> */}
         </div>
       </section>
       <section>

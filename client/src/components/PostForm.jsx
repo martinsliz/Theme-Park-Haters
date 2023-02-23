@@ -53,6 +53,7 @@ const PostForm = () => {
         <option value="5 - An abomination">5 - An abomination!</option>
       </select>
       <button type="submit">Submit</button>
+      {/* <button type="submit">Submit</button> */}
     </form>
   )
 }
