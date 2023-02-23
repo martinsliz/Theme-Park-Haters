@@ -1,15 +1,14 @@
 # Theme-Park-Haters
 
+### By
 
-### By 
-- Frederick Caione  [Github](https://github.com/fcaione)|| [Linkedin](https://www.linkedin.com/in/frederickcaione/)
+- Frederick Caione [Github](https://github.com/fcaione)|| [Linkedin](https://www.linkedin.com/in/frederickcaione/)
 - Liz Martins [Github](https://github.com/martinsliz)|| [Linkedin](https://www.linkedin.com/in/elizmartins/)
 - Sarah Maher [Github](https://github.com/mahers12)|| [Linkedin](https://www.linkedin.com/in/sarah-maher-8a6865255/)
 
-
 ## **_Getting Started:_**
 
-![Deployed Project]() || [Trello](https://trello.com/b/cJrW43N8/theme-park-haters)
+![Deployed Project](https://theme-park-haters.herokuapp.com/) || [Trello](https://trello.com/b/cJrW43N8/theme-park-haters)
 This is a website for those who are sick and tired of wasting time and energy visiting dangerous, dreadful and dirty theme parks that are downright awful, and should be closed already. If you are one of those then you have come to the right place. Theme Park Haters is a webpage designed to display the top 10 worst parks around the world and give users the opportunity to review and share their experiences.
 
 ## **_Technologies Used:_**
