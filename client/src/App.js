@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './Pages/Home'
-import ParkDetails from './Components/ParkDetails'
-import About from './Components/About'
-import Nav from './Components/Nav'
-import PostForm from './Components/PostForm'
+import Home from './pages/Home'
+import ParkDetails from './components/ParkDetails'
+import About from './components/About'
+import Nav from './components/Nav'
+import PostForm from './components/PostForm'
 
 function App() {
   return (
