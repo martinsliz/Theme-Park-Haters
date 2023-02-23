@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 import ParkCard from "../Components/ParkCard"
-import "../Styles/Parks.css"
+import "../styles/Parks.css"
 
 const Parks = () => {
 
