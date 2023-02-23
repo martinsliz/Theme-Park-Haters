@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
-import '../Styles/PostForm.css'
+import '../styles/PostForm.css'
 
 const PostForm = () => {
   let { id } = useParams()
