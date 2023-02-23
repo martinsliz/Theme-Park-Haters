@@ -2,7 +2,7 @@
   background-color: rgb(205, 199, 192, 0.6);
   color: black;
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: bolder;
   text-shadow: 1px 1px 1px white;
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../Styles/ParkCard.css"
+import "../styles/ParkCard.css"
 
 const ParkCard = (props) => {
 	return (

@@ -10,16 +10,7 @@ const About = () => {
         <h4>
           <u>Creative team:</u>
         </h4>
-        <h4>
-          Freddy Caione
-          <a
-            href="https://www.linkedin.com/in/frederickcaione"
-            class="social-icon si-rounded si-small si-linkedin"
-          >
-            <i class="icon-linkedin"></i>
-            <i class="icon-linkedin"></i>
-          </a>
-        </h4>
+        <h4>Freddy Caione</h4>
         <h4>Sarah Maher</h4>
         <h4>Liz Martins</h4>
       </div>

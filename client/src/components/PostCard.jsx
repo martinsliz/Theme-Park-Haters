@@ -1,5 +1,5 @@
 import axios from 'axios'
-import '../Styles/PostCard.css'
+import '../styles/PostCard.css'
 
 const PostCard = (props) => {
   const deletePost = async (postid) => {

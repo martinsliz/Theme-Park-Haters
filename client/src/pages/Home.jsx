@@ -1,8 +1,6 @@
 import Parks from './Parks'
-import seasideFire from '../Images/seasideFire.jpeg'
-import abandoned from "../Images/abandoned.png"
 import abandonedCoaster from "../Images/abandonedCoaster.jpeg"
-import '../Styles/Home.css'
+import '../styles/Home.css'
 
 const Home = () => {
   return (
