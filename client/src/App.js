@@ -1,6 +1,4 @@
 import { Route, Routes } from 'react-router-dom'
-import { useState, useEffect } from 'react'
-import axios from 'axios'
 import './App.css'
 import Home from './Pages/Home'
 import ParkDetails from './Components/ParkDetails'

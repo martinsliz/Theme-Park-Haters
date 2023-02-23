@@ -16,6 +16,7 @@ const ParkDetails = () => {
   }
   useEffect(() => {
     getParkDetails()
+    // eslint-disable-next-line
   }, [])
 
   return (

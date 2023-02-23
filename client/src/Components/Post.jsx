@@ -16,6 +16,7 @@ const Post = () => {
 
   useEffect(() => {
     getPost()
+    // eslint-disable-next-line
   }, [])
 
   return (
