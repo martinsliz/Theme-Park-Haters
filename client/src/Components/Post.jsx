@@ -1,6 +1,5 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { BASE_URL } from '../globals'
 import { useParams, Link } from 'react-router-dom'
 import PostCard from './PostCard'
 import axios from 'axios'
@@ -11,7 +10,7 @@ const Post = () => {
   let { id } = useParams()
 
   const getPost = async () => {
-    const res = await axios.get(`${BASE_URL}/parks/${id}/post`)
+    const res = await axios.get(`/api/parks/${id}/post`)
     setPosts(res.data)
   }
 

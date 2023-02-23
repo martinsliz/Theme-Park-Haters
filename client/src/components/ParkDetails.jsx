@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { BASE_URL } from '../globals'
 import '../Styles/ParkDetails.css'
 import axios from 'axios'
 import Post from './Post'
@@ -11,7 +10,7 @@ const ParkDetails = () => {
   let { id } = useParams()
 
   const getParkDetails = async () => {
-    const response = await axios.get(`${BASE_URL}/parks/${id}`)
+    const response = await axios.get(`/api/parks/${id}`)
     setParkDetails(response.data.park)
     console.log(response.data)
   }
