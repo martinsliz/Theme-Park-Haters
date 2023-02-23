@@ -1,6 +1,5 @@
 import axios from 'axios'
 import { useState } from 'react'
-import { BASE_URL } from '../globals'
 import { useNavigate } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import '../Styles/PostForm.css'
@@ -23,7 +22,7 @@ const PostForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault(event)
-    await axios.post(`${BASE_URL}/post`, formState)
+    await axios.post(`/api/post`, formState)
     setFormState(initialState)
     navigate(`/parks/${id}`)
   }

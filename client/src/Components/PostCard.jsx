@@ -1,10 +1,9 @@
 import axios from 'axios'
-import { BASE_URL } from '../globals'
 import '../Styles/PostCard.css'
 
 const PostCard = (props) => {
   const deletePost = async (postid) => {
-    await axios.delete(`${BASE_URL}/posts/${postid}`)
+    await axios.delete(`/api/posts/${postid}`)
     props.getPost()
   }
 

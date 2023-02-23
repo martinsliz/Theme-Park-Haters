@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 import ParkCard from "../Components/ParkCard"
-import { BASE_URL } from "../globals"
 import "../Styles/Parks.css"
 
 const Parks = () => {
@@ -9,7 +8,7 @@ const Parks = () => {
     const [parks, setParks] = useState([])
 
     const getAllParks = async () => {
-        const res = await axios.get(`${BASE_URL}/parks`)
+        const res = await axios.get(`/api/parks`)
         setParks(res.data.parks)
     }
 
